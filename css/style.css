@@ -47,7 +47,7 @@ nav {
 }
 
 .dropdown {
-  display: block;
+  display: none;
   background-color: #fff;
   border-radius: 0 .0 .5rem .5rem;
   position: absolute;
@@ -91,6 +91,19 @@ nav {
 }
 
 .tasks-btn {
+  background-color: #fff;
+  padding: 1.5rem 3rem;
+  color: #0e3655;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 3rem;
+  border: none;
+  box-shadow: .2rem .2rem .2rem #7f7f7f;
+}
+
+.new-btn {
   background-color: #fff;
   padding: 1.5rem 3rem;
   color: #0e3655;
@@ -273,6 +286,7 @@ nav {
 
 .slider {
   list-style: none;
+  display: none;
 }
 
 .dot {
@@ -293,6 +307,10 @@ nav {
   background-color: #ea6c56;
 }
 
+.visible {
+  display: inline-block;
+}
+
 footer {
   margin-top: 4rem;
   background-color: #44ca85;
@@ -303,4 +321,12 @@ footer p {
   font-size: 1.2rem;
   color: #424343;
   margin-top: 3rem;
+}
+.more {
+  display: none;
+}
+.navbar-fixed-top {
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
 }
